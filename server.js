@@ -12,7 +12,7 @@ import './jobs/cronJob.jobs.js'
 
 dotenv.config()
 const app=express()
-const whitelist = ['http://localhost:5173','atom.mradulvishwakarma.com'];
+const whitelist = ['http://localhost:5173','https://atom.mradulvishwakarma.com'];
 
 // Configure the CORS middleware
 app.use(cors({
